@@ -79,7 +79,7 @@ namespace liu
             {
                 for (int i = 0; i < chilCount; i++)
                 {
-                    UGUIEventListener.Get(transform.GetChild(i).gameObject).onClick += UIButtonOnClickHandler;
+                    //UGUIEventListener.Get(transform.GetChild(i).gameObject).onClick += UIButtonOnClickHandler;
                 }
             }
         }

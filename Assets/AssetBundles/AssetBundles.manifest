@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 4103832592
+CRC: 906403290
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: sphere
+      Name: sphere.assetbundle
       Dependencies: {}

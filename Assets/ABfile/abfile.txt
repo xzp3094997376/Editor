@@ -1,1 +1,1 @@
-Assets/AB/p|Assets/Image/p.prefab
+Assets/AB/Sphere|Assets/Sphere.prefab

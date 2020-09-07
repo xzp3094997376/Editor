@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class TestEditor : EditorWindow
 {
-    [MenuItem("Assets/Prefab/create")]
+    [MenuItem("Frame/Prefab/create")]
     public static void Create()
     {
         EditorWindow.GetWindow(typeof(TestEditor)).Show(true);
@@ -267,5 +267,12 @@ public class TestEditor : EditorWindow
             float cur = Time.realtimeSinceStartup;
             Debug.Log(cur - t);
         }
+    }
+    [MenuItem("Frame/PrintInfo")]
+    static void PrintExtension()
+    {
+        string path = Path.GetFileName(AssetDatabase.GetAssetPath(Selection.activeObject));
+        string ext = Path.GetExtension(path);
+        Debug.Log(ext);
     }
 }
